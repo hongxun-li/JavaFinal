@@ -1,0 +1,68 @@
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: darkgrey;
+	
+	font-family: Arial, sans-serif;
+	font-size: 1.6rem;
+	line-height: 140%;
+	background-color: #000;
+	/*font-weight: 300;*/
+	
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 50%;
+  margin: 10px;
+}
+
+.inputBox {
+	width: 80%;
+	/*max-width: 1200px;*/
+	margin: 0 auto;
+	padding:20px;
+}
+.numInput{
+	width:50px;
+}
+.td_gsSum{
+	color:#F0FFFF;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 20px 0;
+	font-family: Times New Roman, sans-serif;
+	color: #bfc406;
+}
+
+a{color:darkred;}
+
+img {
+	max-width: 100%;
+	margin:20px;
+}
+
+form{margin:30px;}
+
+tr{
+	line-height:50px;
+	margin-right:10px;
+	width:100px;
+	}
+
+td{margin-right:10px;}
